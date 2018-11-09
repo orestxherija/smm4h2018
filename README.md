@@ -2,6 +2,21 @@
 
 Will be updated soon with datasets, code and model weights.
 
+The relevant paper can be found [here](https://aclanthology.coli.uni-saarland.de/papers/W18-5910/w18-5910). Below you can find the `.bib` entry for the paper.
+
+```
+@InProceedings{W18-5910,
+  author = 	"Xherija, Orest",
+  title = 	"Classification of Medication-Related Tweets Using Stacked Bidirectional LSTMs with Context-Aware Attention",
+  booktitle = 	"Proceedings of the 2018 EMNLP Workshop SMM4H: The 3rd Social Media Mining for Health Applications Workshop and Shared Task",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"38--42",
+  location = 	"Brussels, Belgium",
+  url = 	"http://aclweb.org/anthology/W18-5910"
+}
+```
+
 ## Sub-task 1 Leaderboard
 
 Distinguish tweets that mention any drug names or dietary supplement, defined as per definition of the FDA.
