@@ -1,4 +1,4 @@
-# smm4h2018
+# Social Media Mining for Health Applications Shared Task
 
 Will be updated soon with datasets, code and model weights.
 
@@ -17,9 +17,9 @@ The relevant paper can be found [here](https://aclanthology.coli.uni-saarland.de
 }
 ```
 
-## Sub-task 1 Leaderboard
+## Sub-task 1 Leaderboard (11 participants)
 
-Distinguish tweets that mention any drug names or dietary supplement, defined as per definition of the FDA.
+Distinguish tweets that mention names of medications or dietary supplements from those that do not. The definitions of drugs and dietary supplements is taken from the FDA.
 
 |                  | Precision | Recall    |  F1       | 
 | :---             |   :---:   |   :---:   | :---:     |
@@ -35,7 +35,7 @@ Distinguish tweets that mention any drug names or dietary supplement, defined as
 | `ART`            | 0.785     | 0.880     | 0.830     |
 | `ClaC`           | 0.788     | 0.769     | 0.778     |
 
-## Sub-task 2 Leaderboard
+## Sub-task 2 Leaderboard (8 participants)
 
 Distinguish tweets that mention personal medication intake, possible medication intake or no intake.
 
@@ -50,9 +50,9 @@ Distinguish tweets that mention personal medication intake, possible medication 
 | `CLaC`           | 0.402	   | 0.366     | 0.383     |
 | `Techno`         | 0.327	   | 0.432     | 0.372     |
 
-## Sub-task 3 Leaderboard
+## Sub-task 3 Leaderboard (9 participants)
 
-Distinguish between Twitter posts that contain adverse drug reaction mentions from those that do not.
+Distinguish tweets that contain mentions of adverse drug reaction those that do not.
 
 |                  | Precision | Recall    |  F1       | 
 | :---             |   :---:   |  :---:    | :---:     |
@@ -66,7 +66,7 @@ Distinguish between Twitter posts that contain adverse drug reaction mentions fr
 | `Techno`         | 0.434		 | 0.344	   | 0.383     |
 | `IIT_KGP`        | 0.189     | 0.643     | 0.292     |
 
-## Sub-task 4 Leaderboard
+## Sub-task 4 Leaderboard (9 participants)
 
 Distinguish tweets that mention behavior related to influenza vaccination from those that do not. Data annotators labeled tweets to answer the binary question _Does this message indicate that someone received, or intended to receive, a flu vaccine?_
 
