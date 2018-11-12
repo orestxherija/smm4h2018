@@ -1,6 +1,6 @@
 # Social Media Mining for Health Applications Shared Task
 
-Will be updated soon with datasets, code and model weights.
+Will be updated soon with the code. Unfortunately, we are not permitted to release the datasets, but they will soon appear in a Codalab competition where people can try their models' performance. The model weights have been uploaded.
 
 The relevant paper can be found [here](https://aclanthology.coli.uni-saarland.de/papers/W18-5910/w18-5910). Below you can find the `.bib` entry for the paper.
 
